@@ -1169,6 +1169,7 @@ mod test {
         self_extracting: false,
         bundle: false,
         minify: false,
+        exclude_unused_npm: false,
       },
       &resolve_cwd(None).unwrap(),
     )
@@ -1203,6 +1204,7 @@ mod test {
         self_extracting: false,
         bundle: false,
         minify: false,
+        exclude_unused_npm: false,
       },
       &resolve_cwd(None).unwrap(),
     )
